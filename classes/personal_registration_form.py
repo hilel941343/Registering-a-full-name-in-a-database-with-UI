@@ -32,6 +32,7 @@ genderRadio1.place(x=240 , y=150)
 genderRadio2 =Radiobutton(frame,text='Female',variable=gender,value='Female', font='Tahoma 13 bold')
 genderRadio2.place(x=350 , y=150)
 
-
-
+submitbtn = Button(frame,text ='Submit',width=15,borderwidth=5,height=2,bg='#7f7fff',fg ='white', cursor='hand2',
+                   border =2,font=('#57alf8',16,'bold'))
+submitbtn.place(x=200,y=250)
 windows.mainloop()
